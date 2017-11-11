@@ -22,9 +22,16 @@ cd $GOPATH/github.com/USERNAME/snakehack-java
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 #### Heroku-cli commands
+download heroku cli
+[https://devcenter.heroku.com/articles/getting-started-with-java#set-up]
+
+login to heroku
+```
+heroku login
+
 create new heroku app, `--region eu` is important for fast enough response times
 ```
-heroku create --region eu
+heroku create yourfancyname --region eu
 ```
 push to heroku
 ```
