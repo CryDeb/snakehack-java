@@ -23,12 +23,12 @@ cd $GOPATH/github.com/USERNAME/snakehack-java
 
 #### Heroku-cli commands
 download heroku cli
-[https://devcenter.heroku.com/articles/getting-started-with-java#set-up]
+https://devcenter.heroku.com/articles/getting-started-with-java#set-up
 
 login to heroku
 ```
 heroku login
-
+```
 create new heroku app, `--region eu` is important for fast enough response times
 ```
 heroku create yourfancyname --region eu
